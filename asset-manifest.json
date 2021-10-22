@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/hyperlearn/static/css/main.9d915e85.chunk.css",
+    "main.js": "/hyperlearn/static/js/main.57d8bfd5.chunk.js",
+    "main.js.map": "/hyperlearn/static/js/main.57d8bfd5.chunk.js.map",
+    "runtime-main.js": "/hyperlearn/static/js/runtime-main.52be8b64.js",
+    "runtime-main.js.map": "/hyperlearn/static/js/runtime-main.52be8b64.js.map",
+    "static/js/2.432ae734.chunk.js": "/hyperlearn/static/js/2.432ae734.chunk.js",
+    "static/js/2.432ae734.chunk.js.map": "/hyperlearn/static/js/2.432ae734.chunk.js.map",
+    "static/js/3.dddbf1e7.chunk.js": "/hyperlearn/static/js/3.dddbf1e7.chunk.js",
+    "static/js/3.dddbf1e7.chunk.js.map": "/hyperlearn/static/js/3.dddbf1e7.chunk.js.map",
+    "index.html": "/hyperlearn/index.html",
+    "static/css/main.9d915e85.chunk.css.map": "/hyperlearn/static/css/main.9d915e85.chunk.css.map",
+    "static/js/2.432ae734.chunk.js.LICENSE.txt": "/hyperlearn/static/js/2.432ae734.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.52be8b64.js",
+    "static/js/2.432ae734.chunk.js",
+    "static/css/main.9d915e85.chunk.css",
+    "static/js/main.57d8bfd5.chunk.js"
+  ]
+}

@@ -12,9 +12,21 @@ fontSize:'20px'
 };
     return (
         <>
-         <div className="logo" style={logostyle}>&lt;Hyper <span style={spanstyle}>Learn</span> /&gt; </div>   
+         {/* <div className="logo" style={logostyle}>&lt;Hyper <span style={spanstyle}>Learn</span> /&gt; </div>    */}
+        
+         <nav className="navbar navbar-expand-lg navbar-light bg-light">
+  <div className="container-fluid ">
+  <div className="logo" ><a className="navbar-brand" href="/" style={logostyle}>&lt;Hyper <span style={spanstyle}>Learn</span> /&gt; </a>
+  </div>
+    <form className="d-flex ml-auto">
+        <input className="form-control me-2" type="search" placeholder="Search" aria-label="Search"/>
+        <button className="btn btn-outline-primary" type="submit">Search</button>
+      </form>
+    
+  </div>
+</nav>
         </>
     )
-}
+    }
 
 export default Header

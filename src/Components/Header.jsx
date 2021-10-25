@@ -8,7 +8,7 @@ function Header() {
   const logostyle = {
     color: "#fd7e31",
     fontWeight: "bold",
-    fontSize: "20px",
+    fontSize: "1.3rem",
   };
   // Styling for selected things ends here
   return (

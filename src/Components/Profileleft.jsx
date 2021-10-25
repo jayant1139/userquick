@@ -5,19 +5,19 @@ import { AiFillGithub } from "react-icons/ai";
 
 export default function Profileleft() {
   const linkedin = {
-    fontSize: "32px",
+    fontSize: "1.7rem",
     color: "#0073b1",
-    margin: "25px 7px 7px 7px",
+    margin: "1.7rem 0.7rem 0.7rem 0.7rem",
   };
   const twitter = {
-    fontSize: "32px",
+    fontSize: "1.7rem",
     color: "rgb(29, 155, 240)",
-    margin: "25px 7px 7px 7px",
+    margin: "1.7rem 0.7rem 0.7rem 0.7rem",
   };
   const github = {
-    fontSize: "32px",
+    fontSize: "1.7rem",
     color: "black",
-    margin: "25px 7px 7px 7px",
+    margin: "1.7rem 0.7rem 0.7rem 0.7rem",
   };
 
   return (

@@ -4,6 +4,7 @@
   box-sizing: border-box;
 }
 
+/* Left component styling starts here  */
 .left-img {
   width: 250px;
   clip-path: circle();
@@ -11,7 +12,7 @@
 .coreskills {
   /* border:2px solid black; */
   display: flex;
-  width: 250px;
+  width:15rem;
   flex-direction: row;
   flex-wrap: wrap;
 }
@@ -26,6 +27,9 @@
   width: 60px;
   clip-path: circle();
 }
+/* Left component styling ends here  */
+
+/* Center component styling starts here  */
 .main-div {
   /* border: 1px solid green; */
   width: 50vw;
@@ -54,6 +58,10 @@
   font-weight: bold;
 }
 
+/* Center component styling ends here  */
+
+/* Right(Calendar) component styling starts here  */
+
 /* 
 .react-calendar__month-view__weekdays__weekday{
 border: 1px solid blue;
@@ -63,21 +71,34 @@ background-color: greenyellow;
 abbr[data-bs-original-title],
 abbr[title] {
   text-decoration: none;
+  font-size:0.6rem ;
+}
+
+.react-calendar__navigation button{
+min-width: 1.5rem;
+}
+.react-calendar__navigation{
+font-size: 0.6rem;
+margin: 0 !important;
+/* width: 10vw !important; */
+/* background-color: tomato; */
 }
 .react-calendar {
   font-family: "Asap Condensed", sans-serif !important;
   border: none !important;
-  width: 15vw !important;
+  width: 20vw !important;
   border-radius: 10px;
-  font-size: 12px;
+  font-size: 1.2rem;
 }
 .react-calendar__navigation__prev-button,
 .react-calendar__navigation__next-button {
   border-radius: 50%;
+  font-size: 1.2rem !important;
   padding: 0px !important;
 }
 .react-calendar__navigation__arrow {
   border-radius: 50%;
+  font-size: 1.2rem !important;
 }
 /* .react-calendar__tile .react-calendar__month-view__days__day .react-calendar__month-view__days__day--neighboringMonth{
 
@@ -87,6 +108,7 @@ abbr[title] {
 }
 .react-calendar__month-view__days__day {
   color: rgb(161, 161, 161) !important;
+  font-size: 0.8rem;
 }
 
 .react-calendar__tile--now {
@@ -104,17 +126,76 @@ abbr[title] {
   /* color:black; */
   border: 1px solid rgba(211, 210, 210, 0.678);
   border-radius: 7px;
-  padding: 0px 20px;
+  padding: 0px 0.8rem;
 }
 .booksession {
   border-bottom: 1.2px solid rgba(211, 210, 210, 0.678);
-  width: 14vw;
+  width: 10rem;
 }
 .request-demo {
-  width: 14vw;
+  width: 10rem;
   color: #fff;
   background-color: rgb(140, 82, 255);
 }
 .request-demo:hover {
   color: #fff;
+}
+/* Right(Calendar) component styling ends here */
+
+/* Responsiveness of page starts here  */
+@media screen and (max-width:768px) {
+  html{
+    font-size: 55%;
+  }
+  /* Left component responsiveness */
+  .left-img {
+    width:100px;
+   
+  }
+  
+  .coreskills {
+    width: 10rem;
+   
+  }
+  .btn-skills {
+    border-radius: 20px;
+    padding: 5px 15px;
+    margin: 5px;
+    color: rgb(95, 91, 91);
+  }
+  .coreskills img {
+    width: 35px;
+   
+  }
+/* Center component responsiveness   */
+.main-div {
+  /* border: 1px solid green; */
+  width:30vw;
+}
+
+.static-div {
+  border: 1px solid rgba(211, 210, 210, 0.678);
+  border-radius: 5px;
+  /* width: 48vw; */
+  padding: 10px;
+  
+}
+.outline-book {
+  border: 1.5px solid rgb(140, 82, 255);
+  color: rgb(140, 82, 255);
+  max-height: 20px;
+
+  padding: 0px 5px;
+  
+}
+.outline-book:hover {
+  color: rgb(140, 82, 255);
+  font-weight: bold;
+}
+
+
+.react-calendar__navigation button{
+  min-width: 0.7rem;
+  }
+
 }

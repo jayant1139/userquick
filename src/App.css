@@ -29,7 +29,7 @@ flex-wrap: wrap;
   clip-path: circle();
 }
 .main-div{
-  border: 1px solid green;
+  /* border: 1px solid green; */
   width: 50vw;
 }
 /* .bio{
@@ -37,7 +37,7 @@ flex-wrap: wrap;
   
 } */
 .bio p{
-  border: 1px solid green;
+  /* border: 1px solid green; */
   margin:0px;
 }
 .static-div{

@@ -49,7 +49,12 @@ flex-wrap: wrap;
 .outline-book{
   border:1.5px solid rgb(140, 82, 255);
   color:rgb(140, 82, 255);
+  
   width:100px;
+}
+.outline-book:hover{
+  color:rgb(140, 82, 255);
+  font-weight: bold;
 }
 
 /* 

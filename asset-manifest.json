@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/hyperlearn/static/css/main.88e36462.chunk.css",
-    "main.js": "/hyperlearn/static/js/main.755e974e.chunk.js",
-    "main.js.map": "/hyperlearn/static/js/main.755e974e.chunk.js.map",
+    "main.css": "/hyperlearn/static/css/main.e8aa2808.chunk.css",
+    "main.js": "/hyperlearn/static/js/main.8a845e28.chunk.js",
+    "main.js.map": "/hyperlearn/static/js/main.8a845e28.chunk.js.map",
     "runtime-main.js": "/hyperlearn/static/js/runtime-main.2d7c01db.js",
     "runtime-main.js.map": "/hyperlearn/static/js/runtime-main.2d7c01db.js.map",
     "static/css/2.8cebfa1f.chunk.css": "/hyperlearn/static/css/2.8cebfa1f.chunk.css",
@@ -12,14 +12,14 @@
     "static/js/3.61d36a03.chunk.js.map": "/hyperlearn/static/js/3.61d36a03.chunk.js.map",
     "index.html": "/hyperlearn/index.html",
     "static/css/2.8cebfa1f.chunk.css.map": "/hyperlearn/static/css/2.8cebfa1f.chunk.css.map",
-    "static/css/main.88e36462.chunk.css.map": "/hyperlearn/static/css/main.88e36462.chunk.css.map",
+    "static/css/main.e8aa2808.chunk.css.map": "/hyperlearn/static/css/main.e8aa2808.chunk.css.map",
     "static/js/2.94eea3b3.chunk.js.LICENSE.txt": "/hyperlearn/static/js/2.94eea3b3.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.2d7c01db.js",
     "static/css/2.8cebfa1f.chunk.css",
     "static/js/2.94eea3b3.chunk.js",
-    "static/css/main.88e36462.chunk.css",
-    "static/js/main.755e974e.chunk.js"
+    "static/css/main.e8aa2808.chunk.css",
+    "static/js/main.8a845e28.chunk.js"
   ]
 }

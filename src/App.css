@@ -1,34 +1,32 @@
-*{
+* {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 
-.left-img{
-  width:250px;
+.left-img {
+  width: 250px;
   clip-path: circle();
-  
-  /* object-fit: cover;   */
 }
-.coreskills{
+.coreskills {
   /* border:2px solid black; */
   display: flex;
   width: 250px;
-flex-direction: row;
-flex-wrap: wrap;
+  flex-direction: row;
+  flex-wrap: wrap;
 }
-.btn-skills{
-  border:none;
-  border-radius:20px;
+.btn-skills {
+  border: none;
+  border-radius: 20px;
   padding: 5px 15px;
   margin: 10px;
   color: rgb(95, 91, 91);
 }
-.coreskills img{
-  width:60px;
+.coreskills img {
+  width: 60px;
   clip-path: circle();
 }
-.main-div{
+.main-div {
   /* border: 1px solid green; */
   width: 50vw;
 }
@@ -36,23 +34,23 @@ flex-wrap: wrap;
   border: 1px solid green;
   
 } */
-.bio p{
+.bio p {
   /* border: 1px solid green; */
-  margin:0px;
+  margin: 0px;
 }
-.static-div{
-  border:1px solid rgba(211, 210, 210, 0.678);
+.static-div {
+  border: 1px solid rgba(211, 210, 210, 0.678);
   border-radius: 5px;
   /* width: 48vw; */
   padding: 15px;
 }
-.outline-book{
-  border:1.5px solid rgb(140, 82, 255);
-  color:rgb(140, 82, 255);
-  width:100px;
+.outline-book {
+  border: 1.5px solid rgb(140, 82, 255);
+  color: rgb(140, 82, 255);
+  width: 100px;
 }
-.outline-book:hover{
-  color:rgb(140, 82, 255);
+.outline-book:hover {
+  color: rgb(140, 82, 255);
   font-weight: bold;
 }
 
@@ -62,55 +60,61 @@ border: 1px solid blue;
 text-decoration: none !important;
 background-color: greenyellow;
 } */
-abbr[data-bs-original-title], abbr[title]{
+abbr[data-bs-original-title],
+abbr[title] {
   text-decoration: none;
 }
-.react-calendar{
-  font-family: 'Asap Condensed', sans-serif !important;
-  border:none !important;
-  width:20vw !important;
+.react-calendar {
+  font-family: "Asap Condensed", sans-serif !important;
+  border: none !important;
+  width: 15vw !important;
   border-radius: 10px;
-  font-size: medium;
+  font-size: 12px;
+}
+.react-calendar__navigation__prev-button,
+.react-calendar__navigation__next-button {
+  border-radius: 50%;
+  padding: 0px !important;
+}
+.react-calendar__navigation__arrow {
+  border-radius: 50%;
 }
 /* .react-calendar__tile .react-calendar__month-view__days__day .react-calendar__month-view__days__day--neighboringMonth{
 
 } */
-.react-calendar__month-view__days__day:hover{
+.react-calendar__month-view__days__day:hover {
   clip-path: circle();
 }
- .react-calendar__month-view__days__day{
-  color:rgb(161, 161, 161) !important;
+.react-calendar__month-view__days__day {
+  color: rgb(161, 161, 161) !important;
 }
 
-.react-calendar__tile--now{
+.react-calendar__tile--now {
   background-color: rgb(140, 82, 255) !important;
   clip-path: circle();
-  color:#fff !important;
-
+  color: #fff !important;
 }
 
-.react-calendar__tile--active{
+.react-calendar__tile--active {
   background-color: rgb(140, 82, 255) !important;
   clip-path: circle();
-  color:#fff !important;
-
+  color: #fff !important;
 }
-.heading{
-  color:black;
-  border:1px solid rgba(211, 210, 210, 0.678);
+.heading {
+  /* color:black; */
+  border: 1px solid rgba(211, 210, 210, 0.678);
   border-radius: 7px;
-  padding: 20px;
-  
+  padding: 0px 20px;
 }
-.booksession{
-  border-bottom:1.2px solid rgba(211, 210, 210, 0.678) ;
-  width: 18vw;
+.booksession {
+  border-bottom: 1.2px solid rgba(211, 210, 210, 0.678);
+  width: 14vw;
 }
-.request-demo{
-  width: 18vw;
-  color:#fff;
+.request-demo {
+  width: 14vw;
+  color: #fff;
   background-color: rgb(140, 82, 255);
 }
-.request-demo:hover{
-  color:#fff;
+.request-demo:hover {
+  color: #fff;
 }

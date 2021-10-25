@@ -13,17 +13,17 @@ import Profileright from './Components/Profileright';
 function App() {
   return (
     <>
-    <Header/>
-    {/* <Main/> */}
-    <div className="d-flex justify-content-around">
-      <div className="d-flex flex-column">
-    <Profileleft/>
-    <Coreskill/>
-    </div>
-  <Profilecenter/>
-  <Profileright/>
-  </div>
-  
+      <Header />
+      {/* <Main/> */}
+      <div className="d-flex justify-content-around">
+        <div className="d-flex flex-column">
+          <Profileleft />
+          <Coreskill />
+        </div>
+        <Profilecenter />
+        <Profileright />
+      </div>
+
     </>
   );
 }

@@ -1,6 +1,6 @@
 import React from "react";
 
-export default function Coreskill() {
+export default function Coreskill(props) {
   return (
     <div className="d-flex flex-column align-items-start mx-2 ">
       <p className="mx-3">
@@ -27,9 +27,14 @@ export default function Coreskill() {
         <b>Past Companies</b>
       </p>
       <div className="coreskills">
-        <img src="http://placeimg.com/640/480/business" alt="" />
-        <img src="http://placeimg.com/640/480/business" alt="" />
+        <img src={props.pastsrc1} alt="" />
+        <img src={props.pastsrc2} alt="" />
       </div>
     </div>
   );
+}
+
+Coreskill.defaultProps={
+  pastsrc1:"http://placeimg.com/640/480/business",
+  pastsrc2:"http://placeimg.com/640/480/business"
 }

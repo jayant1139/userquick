@@ -11,7 +11,7 @@ function App() {
   return (
     <>
       <Header />
-      {/* <Main /> */}
+      
       <Switch>
       <Route exact path="/" component={Main}/>
       <Route exact path="/Profile" component={Profile}/>

@@ -1,11 +1,13 @@
 import React,{useEffect} from 'react'
 import { useState } from 'react';
 import { NavLink } from 'react-router-dom';
-import Profile from './Profile';
+// import Profile from './Profile';
 
-function Pro(index){
-  index=index+1;
-}
+// import Value from './Value';
+// import Profile from './Profile';
+// import Profile from './Profile';
+
+
 function Main() {
 
     const  [users, setusers] = useState([]);
@@ -17,6 +19,8 @@ function Main() {
         setusers(await response.json());
         // console.log(data);
     }
+    
+   
 useEffect(() => {
    getUsers();
 },[]);
@@ -36,13 +40,16 @@ useEffect(() => {
   <tbody>
   {
       
-      users.map((currentElement,index)=>{
+      users.map((currentElement)=>{
     return(
         <>
-    <tr key={currentElement.id}>
+    <tr>
       <td >{currentElement.name}</td>
       <td>{currentElement.experience}</td>
-      <td><NavLink to='/Profile'>View Profile</NavLink></td>
+      <td><NavLink  to={{
+   pathname:'/Profile',
+   state: {ID:currentElement.id}  
+ }}>View Profile</NavLink></td>
       
     </tr>
   

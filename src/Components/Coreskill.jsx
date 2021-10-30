@@ -33,8 +33,3 @@ export default function Coreskill(props) {
     </div>
   );
 }
-
-Coreskill.defaultProps={
-  pastsrc1:"http://placeimg.com/640/480/business",
-  pastsrc2:"http://placeimg.com/640/480/business"
-}

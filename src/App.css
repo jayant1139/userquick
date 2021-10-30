@@ -4,11 +4,33 @@
   box-sizing: border-box;
 }
 /* Main.jsx Styling starts here  */
+.nav-shadow{
+  margin-bottom: 2rem;
+  box-shadow: -0.1rem 0.1rem 0.5rem -0.1rem rgba(55, 53, 47, 0.6);
+-webkit-box-shadow: -0.1rem 0.1rem 0.5rem -0.1rem rgba(55, 53, 47, 0.6);
+-moz-box-shadow: -0.1rem 0.1rem 0.5rem -0.1rem rgba(55, 53, 47, 0.6);
+}
+.imgcon img{
+  width: 3.6rem;
+  clip-path: circle();
+}
+
 a{
   text-decoration: none;
   color:rgb(140, 82, 255);
   /* text-transform: capitalize; */
   
+}
+.width30{
+  width: 20vw;
+  margin-left: auto;
+}
+thead{
+  
+  color:rgba(55, 53, 47, 0.6);
+}
+.name-bold{
+  font-weight: bold;
 }
 /* Main.jsx Styling ends here   */
 
@@ -32,7 +54,7 @@ a{
   color: rgb(95, 91, 91);
 }
 .coreskills img {
-  width: 60px;
+  width: 6rem;
   clip-path: circle();
 }
 /* Left component styling ends here  */

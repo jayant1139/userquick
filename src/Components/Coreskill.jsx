@@ -1,6 +1,11 @@
 import React from "react";
 
 export default function Coreskill(props) {
+  // getting skills string via props
+  const str = `${props.skill}`;
+  // splitting into substring to get individual skills
+  const skill_arr = str.split(" ");
+  // console.log(skill_arr);
   return (
     <div className="d-flex flex-column align-items-start mx-2 ">
       <p className="mx-3">
@@ -8,7 +13,8 @@ export default function Coreskill(props) {
       </p>
 
       <div className="coreskills ">
-        {props.skill.map((index) => {
+        {/* using map to get individual skill in a loop  */}
+        {skill_arr.map((index) => {
           return (
             <>
               <button type="button" className="btn-skills">
@@ -17,19 +23,6 @@ export default function Coreskill(props) {
             </>
           );
         })}
-
-        {/* <button type="button" className="btn-skills">
-        {props.skill2}
-        </button>
-        <button type="button" className="btn-skills">
-        {props.skill3}
-        </button>
-        <button type="button" className="btn-skills">
-        {props.skill4}
-        </button>
-        <button type="button" className="btn-skills">
-        {props.skill5}
-        </button> */}
       </div>
       <p className="mx-2">
         <b>Past Companies</b>
@@ -41,3 +34,11 @@ export default function Coreskill(props) {
     </div>
   );
 }
+
+// Coreskill.defaultProps = {
+//   skill1: "node",
+//   skill2: "nodejs",
+//   skill3: "react",
+//   skill4: "reactjs",
+//   skill5: "js",
+// };

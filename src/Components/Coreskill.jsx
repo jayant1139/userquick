@@ -6,22 +6,30 @@ export default function Coreskill(props) {
       <p className="mx-3">
         <b>Core Skills</b>
       </p>
+
       <div className="coreskills ">
-        <button type="button" className="btn-skills">
-          React
+        {props.skill.map((index) => {
+          return (
+            <>
+              <button type="button" className="btn-skills">
+                {index}
+              </button>
+            </>
+          );
+        })}
+
+        {/* <button type="button" className="btn-skills">
+        {props.skill2}
         </button>
         <button type="button" className="btn-skills">
-          Javascript
+        {props.skill3}
         </button>
         <button type="button" className="btn-skills">
-          HTML
+        {props.skill4}
         </button>
         <button type="button" className="btn-skills">
-          CSS
-        </button>
-        <button type="button" className="btn-skills">
-          Node
-        </button>
+        {props.skill5}
+        </button> */}
       </div>
       <p className="mx-2">
         <b>Past Companies</b>

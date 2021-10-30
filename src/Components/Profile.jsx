@@ -20,6 +20,11 @@ export default function Profile(props) {
   useEffect(() => {
     getsource();
   }, []);
+  let str = source.skills;
+  console.log(str);
+  const arr = str.split(" ");
+
+  console.log(arr);
 
   return (
     <>
@@ -27,6 +32,8 @@ export default function Profile(props) {
         <div className="d-flex flex-column">
           <Profileleft src={source.avatar} />
           <Coreskill
+            skill={arr}
+            // skill={((source.skills).split(" "))}
             pastsrc1={source.pastCompanies}
             pastsrc2={source.pastCompanies}
           />

@@ -1,7 +1,7 @@
 
 # _HYPERLEARN_
 
-Created using **reactjs** and retrieved data from hyperlearn mock **api**'s
+Created using **reactjs** and retrieved data from  mock **api**'s
  ## [Live Here](https://jayant1139.github.io/hyperlearn/)
 ## 🛠 _SKILLS_
  _**REACTJS,JAVASCRIPT, HTML, CSS**_

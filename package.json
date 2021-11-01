@@ -1,6 +1,6 @@
 {
-  "name": "hyperlearn",
-  "homepage": "https://jayant1139.github.io/userquick/",
+  "name": "userquick",
+  "homepage": "https://jayant1139.github.io/userquick",
   "version": "0.1.0",
   "private": true,
   "dependencies": {

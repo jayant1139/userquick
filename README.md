@@ -1,8 +1,8 @@
 
-# _UserQuick
+# _UserQuick_
 
 Created using **reactjs** and retrieved data from  mock **api**'s
- ## [Live Here](https://jayant1139.github.io/hyperlearn/)
+ ## [Live Here](https://jayant1139.github.io/userquick/)
 ## 🛠 _SKILLS_
  _**REACTJS,JAVASCRIPT, HTML, CSS**_
 

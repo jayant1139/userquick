@@ -1,5 +1,5 @@
 
-# _HYPERLEARN_
+# _UserQuick
 
 Created using **reactjs** and retrieved data from  mock **api**'s
  ## [Live Here](https://jayant1139.github.io/hyperlearn/)

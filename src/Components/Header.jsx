@@ -17,7 +17,7 @@ function Header() {
         <div className="container-fluid ">
           <div className="logo">
             <a className="navbar-brand" href="/" style={logostyle}>
-              &lt;Hyper <span style={spanstyle}>Learn</span> /&gt;{" "}
+              &lt;User <span style={spanstyle}>Quick</span> /&gt;{" "}
             </a>
           </div>
           <div className="imgcon mx-5">

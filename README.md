@@ -9,7 +9,7 @@ Created using **reactjs** and retrieved data from  mock **api**'s
 
 ## Screenshot
 
-![App Screenshot](https://raw.githubusercontent.com/jayant1139/hyperlearn/master/hyperlearn_profile.png)
+![App Screenshot](https://raw.githubusercontent.com/jayant1139/userquick/master/userquick_img.png)
 
 ### 🔗 Connect here
 [![Github](https://img.shields.io/badge/my_github-white?style=for-the-badge&logo=github&logoColor=black)](https://github.com/jayant1139)
